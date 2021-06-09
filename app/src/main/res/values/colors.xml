@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="dirty_purple">#545253</color>
-    <color name="dark_pink">#be2f83</color>
+        <color name="dark_pink">#be2f83</color>
     <color name="dark_pink31">#34BE2F83</color>
     <color name="pale_mauve">#fff6fc</color>
 </resources>
