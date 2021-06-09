@@ -17,4 +17,5 @@
         android:src="@drawable/visao_do_bem_logo_3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="224dp"/>
+
 </RelativeLayout>

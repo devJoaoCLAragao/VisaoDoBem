@@ -12,7 +12,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
 
-        Handler().postDelayed({ showLogin() }, 4000)
+       // Handler().postDelayed({ showLogin() }, 4000)
 
     }
 
