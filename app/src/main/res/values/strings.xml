@@ -4,4 +4,6 @@
     <string name="logo_vis_o_do_bem">Logo Visão do Bem</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    <string name="para_quem_o">Para quem é o</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
