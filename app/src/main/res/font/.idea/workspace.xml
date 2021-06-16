@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3824024b-d8cf-4170-a551-2337d2c5048b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../java/br/com/devjoaoclaragao/visaodobem/ui/activity/ClientActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-hdpi/mask_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-mdpi/mask_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xhdpi/mask_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxhdpi/mask_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable-xxxhdpi/mask_group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../layout/activity_client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_for_who.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_for_who.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_main_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_main_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1ttrkUciJkz4q1x7PgabIctXuLL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3824024b-d8cf-4170-a551-2337d2c5048b" name="Default Changelist" comment="" />
+      <created>1623599369057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623599369057</updated>
+    </task>
+    <servers />
+  </component>
+</project>

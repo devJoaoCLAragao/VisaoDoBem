@@ -7,4 +7,13 @@
     <string name="para_quem_o">Para quem é o</string>
     <string name="cadastrar">Cadastrar</string>
     <string name="novo_pedido">novo pedido?</string>
+    <string name="cliente_j_cadastrado">Cliente já cadastrado</string>
+    <string name="novo_cliente">Novo Cliente</string>
+    <string name="novo">Novo </string>
+    <string name="cliente">Cliente </string>
+    <string name="j_cadastrado">já cadastrado</string>
+    <string name="cliente_question">Cliente?</string>
+    <string name="buscar_por_nome_ou_data">Buscar por nome ou data</string>
+    <string name="quem_o_a">Quem é o (a)</string>
+    <string name="ltimo_pedido">Último pedido:</string>
 </resources>

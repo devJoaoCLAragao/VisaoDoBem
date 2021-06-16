@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_shadow_white_client"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/photoClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mask_group" />
+
+    <TextView
+        android:id="@+id/nameClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/photoClient"
+        android:fontFamily="@font/opensans_semi_bold"
+        android:text="Lívia Santos"
+        android:textColor="@color/dirty_purple_545253" />
+
+    <TextView
+        android:id="@+id/u_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ltimo_pedido"
+        android:layout_below="@+id/nameClient"
+        android:layout_toRightOf="@id/photoClient"
+        android:layout_marginLeft="12dp"
+        android:textSize="14sp"
+        android:textColor="@color/dirty_purple_545253"
+        android:fontFamily="@font/opensans_regular"/>
+
+    <TextView
+        android:id="@+id/lastOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26/05/2021"
+        android:textColor="@color/dirty_purple_545253"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@+id/nameClient"
+        android:layout_toRightOf="@id/u_p"
+        android:textSize="14sp"
+        android:fontFamily="@font/opensans_regular"/>
+
+    <ImageView
+        android:layout_width="7dp"
+        android:layout_height="12dp"
+        android:src="@drawable/vector"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+</RelativeLayout>
