@@ -1,9 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rectangle_7"
+    android:orientation="vertical"
     tools:context=".ui.activity.ForWhoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/praQuemE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="157dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/para_quem_o"
+        android:textColor="@color/dirty_purple_545253"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/novoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/praQuemE"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/novo_pedido"
+        android:textColor="@color/dark_pink_be2f83"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeNewClient"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_below="@id/novoPedido"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginBottom="26dp">
+
+        <ImageButton
+            android:id="@+id/newClient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:background="@color/pale_mauve_fff6fc"
+            android:fontFamily="@font/opensans_bold"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/vector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:translationZ="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/novo"
+                android:textColor="@color/dark_pink_be2f83"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:text="Cliente"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_below="@id/relativeNewClient"
+        android:layout_marginHorizontal="35dp">
+
+        <ImageButton
+            android:id="@+id/oldClient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/pale_mauve_fff6fc"
+            android:fontFamily="@font/opensans_bold"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/vector"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:translationZ="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/cliente"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/j_cadastrado"
+                android:textColor="@color/dark_pink_be2f83"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
