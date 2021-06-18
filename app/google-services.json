@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011133136549",
+    "project_id": "visaodobem-bf295",
+    "storage_bucket": "visaodobem-bf295.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011133136549:android:fbe05377d486ee3a0c974c",
+        "android_client_info": {
+          "package_name": "br.com.devjoaoclaragao.visaodobem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011133136549-47asm2tfgbu1scjlnisva23pf646argo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVGT8zpyW5wWTyN7yJyPltbD8vk5VmFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011133136549-47asm2tfgbu1scjlnisva23pf646argo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
