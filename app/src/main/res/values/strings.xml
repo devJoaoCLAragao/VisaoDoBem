@@ -17,4 +17,7 @@
     <string name="quem_o_a">Quem é o (a)</string>
     <string name="ltimo_pedido">Último pedido:</string>
     <string name="plus">+</string>
+    <string name="cliente_desde">Cliente desde</string>
+    <string name="ultimo_pedido">Ultimo Pedido: </string>
+    <string name="indicada_por">Indicada por: </string>
 </resources>
