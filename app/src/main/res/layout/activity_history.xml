@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pale_mauve_fff6fc"
-    tools:context=".ui.activity.HistoryActivity">
+    tools:context=".ui.activity.HistoryActivity"
+    android:layout_marginBottom="84dp">
 
     <ImageView
         android:id="@+id/userPhoto"
@@ -13,7 +14,7 @@
         android:layout_height="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:src="@drawable/mask_group" />
+        android:src="@drawable/mask_group"/>
 
     <TextView
         android:id="@+id/cliente_desde"
@@ -51,11 +52,11 @@
         android:textSize="16sp" />
 
     <LinearLayout
+        android:id="@+id/LLLastOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/userName"
         android:gravity="center"
-        android:id="@+id/LLLastOrder"
         android:orientation="horizontal">
 
         <TextView
@@ -73,16 +74,16 @@
             android:fontFamily="@font/opensans_bold"
             android:text="26/05/2020"
             android:textColor="@color/dirty_purple_545253"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/LLIndicadaPor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/LLLastOrder"
         android:gravity="center"
-        android:id="@+id/LLIndicadaPor"
         android:orientation="horizontal">
 
         <TextView
@@ -100,18 +101,52 @@
             android:fontFamily="@font/opensans_bold"
             android:text="Ana Santos"
             android:textColor="@color/dirty_purple_545253"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/time"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/group_107"
-        android:layout_below="@id/LLIndicadaPor"/>
+        android:layout_below="@id/LLIndicadaPor"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/group_107" />
 
+    <RelativeLayout
+        android:id="@+id/layoutHistorico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time">
 
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:background="@color/transparent"
+            android:src="@drawable/u_clock_three"
+            android:translationZ="50dp" />
 
+        <TextView
+            android:layout_width="158dp"
+            android:layout_height="29dp"
+            android:background="@drawable/background_rectangle_history"
+            android:gravity="center"
+            android:text="@string/hist_rico"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/listHistory"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutHistorico"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        tools:listitem="@layout/item_list_history"/>
 
 
 </RelativeLayout>
