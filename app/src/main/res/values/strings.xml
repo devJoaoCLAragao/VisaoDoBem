@@ -16,4 +16,5 @@
     <string name="buscar_por_nome_ou_data">Buscar por nome ou data</string>
     <string name="quem_o_a">Quem é o (a)</string>
     <string name="ltimo_pedido">Último pedido:</string>
+    <string name="plus">+</string>
 </resources>

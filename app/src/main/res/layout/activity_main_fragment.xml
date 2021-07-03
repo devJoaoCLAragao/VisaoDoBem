@@ -11,17 +11,27 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="84dp" />
 
+    <Button
+        android:layout_width="56dp"
+        android:layout_above="@id/fragment"
+        android:layout_height="56dp"
+        android:background="@drawable/background_yellow_fragment_button"
+        android:textSize="80sp"/>
+
+
     <LinearLayout
         android:layout_width="match_parent"
+        android:id="@+id/fragment"
         android:layout_height="84dp"
         android:layout_alignParentBottom="true"
-        android:background="@color/dark_pink_be2f83"
+        android:background="@drawable/fragment_visao_do_bem"
         android:orientation="horizontal">
 
         <ImageButton
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:layout_weight="1"
             android:background="@drawable/group_127" />
 

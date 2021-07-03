@@ -19,4 +19,5 @@
     <color name="dark_pink60_be2f83">#60be2f83</color>
     <color name="dark_pink75_be2f83">#75be2f83</color>
     <color name="dark_pink90_be2f83">#90be2f83</color>
+    <color name="yellow_button_fragment">#F2E006</color>
 </resources>
