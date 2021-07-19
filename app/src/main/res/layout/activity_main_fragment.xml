@@ -11,39 +11,41 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="84dp" />
 
-    <Button
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="56dp"
-        android:text="@string/plus"
-        android:background="@drawable/background_yellow_fragment_button"
-        android:textSize="30sp" />
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/group_153"
+        android:translationZ="50dp" />
 
     <LinearLayout
         android:id="@+id/fragment"
         android:layout_width="match_parent"
         android:layout_height="84dp"
         android:layout_alignParentBottom="true"
+        android:paddingHorizontal="15dp"
         android:background="@drawable/fragment_visao_do_bem"
         android:orientation="horizontal">
 
 
         <ImageButton
+            android:id="@+id/btnSales"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@drawable/group_127" />
+            android:background="@drawable/group_183" />
 
         <ImageButton
+            android:id="@+id/btnClients"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@drawable/group_128" />
+            android:background="@drawable/group_184" />
 
         <ImageButton
             android:layout_width="match_parent"
@@ -52,18 +54,20 @@
             android:background="@color/transparent" />
 
         <ImageButton
+            android:id="@+id/btnInformation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@drawable/group_131" />
+            android:background="@drawable/group_186" />
 
         <ImageButton
+            android:id="@+id/btnMenu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:background="@drawable/group_129" />
+            android:background="@drawable/group_185" />
     </LinearLayout>
 
 </RelativeLayout>
