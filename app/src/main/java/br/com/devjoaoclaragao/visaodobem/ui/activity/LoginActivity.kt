@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun login(){
-        var intent = Intent(this, ForWhoActivity::class.java)
+        var intent = Intent(this, MainFragment::class.java)
         startActivity(intent)
         finish()
     }
