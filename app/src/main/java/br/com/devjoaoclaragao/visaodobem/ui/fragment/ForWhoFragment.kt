@@ -36,14 +36,9 @@ class ForWhoFragment : Fragment() {
     }
 
     fun showClient(){
-
-        //Toast.makeText(context, "clicou", Toast.LENGTH_LONG).show()
-        //MainFragment().setFragment(ClientFragment.newInstance())
-
-//        var fm : FragmentManager
-//        val ft: FragmentTransaction = fm.beginTransaction()
-//        ft.replace(R.id.fragment_content, MainFragment())
-//        ft.commit()
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.content, ClientFragment.newInstance())
+            .commit()
     }
 
 

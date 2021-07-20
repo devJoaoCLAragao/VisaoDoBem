@@ -41,8 +41,8 @@
             android:hint="@string/buscar_por_nome_ou_data"
             android:paddingHorizontal="16dp" />
 
-        <ListView
-            android:id="@+id/listViewClient"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewClient"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

@@ -2,8 +2,10 @@ package br.com.devjoaoclaragao.visaodobem.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageButton
 import androidx.fragment.app.Fragment
 import br.com.devjoaoclaragao.visaodobem.R
+import br.com.devjoaoclaragao.visaodobem.ui.fragment.ClientFragment
 import br.com.devjoaoclaragao.visaodobem.ui.fragment.ForWhoFragment
 
 class MainFragment : AppCompatActivity() {
@@ -13,7 +15,10 @@ class MainFragment : AppCompatActivity() {
 
         setFragment(ForWhoFragment.newInstance())
 
-
+        var btnClients = findViewById<ImageButton>(R.id.btnClients)
+        btnClients.setOnClickListener {
+            setFragment(ClientFragment.newInstance())
+        }
     }
 
     fun setFragment(fragment: Fragment) {

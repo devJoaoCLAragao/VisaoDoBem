@@ -14,7 +14,11 @@ class HistoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_history, container, false)
+        var view = inflater.inflate(R.layout.fragment_history, container, false)
+
+        //TODO("Implementar Historico a partir do ClientFragment")
+
+        return view
     }
 
     companion object {

@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import br.com.devjoaoclaragao.visaodobem.R
 import br.com.devjoaoclaragao.visaodobem.models.Client
 import com.bumptech.glide.Glide
+import org.w3c.dom.Text
 
 class ClientAdapter(var context : Context, var list : List<Client>) : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
 
@@ -27,13 +28,20 @@ class ClientAdapter(var context : Context, var list : List<Client>) : RecyclerVi
     override fun getItemCount(): Int {
         return list.size
     }
-}
 
-class ClientHolder (view: View) : RecyclerView.ViewHolder(view){
-    fun bind(context: Context, client: Client) {
-        var photoClient = itemView.findViewById<ImageView>(R.id.photoClient)
-        var nameClient = itemView.findViewById<TextView>(R.id.nameClient)
-        var lastOrder = itemView.findViewById<TextView>(R.id.lastOrder)
+    class ClientHolder (view: View) : RecyclerView.ViewHolder(view){
+        fun bind(context: Context, client: Client) {
+            var photoClient = itemView.findViewById<ImageView>(R.id.photoClient)
+            var nameClient = itemView.findViewById<TextView>(R.id.nameClient)
+            var lastOrder = itemView.findViewById<TextView>(R.id.lastOrder)
 
+            nameClient.text = client.name
+            lastOrder.text = client.lastOrder
+
+
+        }
     }
 }
+
+
+
