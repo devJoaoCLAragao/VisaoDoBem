@@ -92,7 +92,8 @@
             android:layout_marginRight="22dp"
             android:layout_marginTop="20dp"
             android:layout_below="@id/valorTotal"
-            android:background="@color/caixa_falta_meta" >
+            android:background="@color/caixa_falta_meta"
+            android:clickable="true">
 
             <TextView
                 android:layout_width="wrap_content"

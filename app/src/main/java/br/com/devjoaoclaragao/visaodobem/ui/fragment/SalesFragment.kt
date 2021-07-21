@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RelativeLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import br.com.devjoaoclaragao.visaodobem.R
@@ -35,6 +36,11 @@ class SalesFragment : Fragment() {
         recycleViewSale?.adapter = SalesAdapter(requireContext(), sales)
         recycleViewSale?.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
 
+        var btMeta = view.findViewById<RelativeLayout>(R.id.faltaMeta)
+        btMeta.setOnClickListener {
+            showMeta()
+        }
+
         // Inflate the layout for this fragment
         return view
     }
@@ -45,5 +51,11 @@ class SalesFragment : Fragment() {
             return SalesFragment()
         }
 
+    }
+
+    fun showMeta() {
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.content, GoalsFragment.newInstance())
+            .commit()
     }
 }
