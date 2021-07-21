@@ -34,3 +34,5 @@ class MainFragment : AppCompatActivity() {
         ft.commit()
     }
 }
+
+// var fm = supportFragmentManager

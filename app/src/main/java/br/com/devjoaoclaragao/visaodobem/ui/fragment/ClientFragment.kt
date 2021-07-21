@@ -35,14 +35,12 @@ class ClientFragment : Fragment() {
 
         var recyclerViewClient = view.findViewById<RecyclerView>(R.id.recyclerViewClient)
         recyclerViewClient.adapter = ClientAdapter(requireContext(), clientes)
-        recyclerViewClient.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
-
-
-        //getClients(requireView(), clientes)
-
+        recyclerViewClient.layoutManager =
+            LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
 
         return view
     }
+
 
     companion object {
         fun newInstance(): ClientFragment {
@@ -50,11 +48,4 @@ class ClientFragment : Fragment() {
         }
     }
 
-    //ClientAdapter
-//    fun getClients(list: List<Client>) {
-//        var toast = Toast.makeText(context, "foiLista", Toast.LENGTH_LONG).show()
-//        var recyclerViewClient = view.findViewById<RecyclerView>(R.id.recyclerViewClient)
-//        recyclerViewClient.adapter = ClientAdapter(requireContext(), list)
-//        recyclerViewClient.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
-//    }
 }
