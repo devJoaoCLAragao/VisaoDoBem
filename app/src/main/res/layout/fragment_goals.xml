@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".ui.fragment.GoalsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/titulo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="Vamos definir"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="sua meta?"
+            android:textColor="@color/logotipo_principal_cor"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titulo2"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="Escolha"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titulo2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="38dp"
+            android:layout_toRightOf="@id/text1"
+            android:fontFamily="@font/opensans_bold"
+            android:text="o periodo"
+            android:textColor="@color/cinza_escuro"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:layout_marginTop="17dp"
+            android:layout_centerHorizontal="true">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"
+                android:text="Quinzenal"
+                android:textColor="@color/cinza_escuro" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:buttonTint="@color/logotipo_principal_cor"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"
+                android:text="Mensal"
+                android:textColor="@color/cinza_escuro" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="18sp"
+                android:text="Trimestral"
+                android:textColor="@color/cinza_escuro" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radioGroup"
+            android:layout_marginTop="38dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/opensans_regular"
+            android:textSize="18sp"
+            android:textColor="@color/cinza_escuro"
+            android:text="Quanto você"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="18sp"
+            android:textColor="@color/cinza_escuro"
+            android:text="deseja Ganhar neste período?"/>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="69dp"
+            android:layout_marginRight="69dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_shadow_white_client"
+            android:textAlignment="center"
+            android:fontFamily="@font/opensans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/cinza_escuro"
+            android:hint="Clique aqui para inserir o valor" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editText"
+            android:layout_marginTop="26dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_round"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:background="@color/logotipo_principal_cor"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="23dp"
+                android:textColor="@color/white"
+                android:text="Salvar"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon_content_save"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

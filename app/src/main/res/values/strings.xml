@@ -23,6 +23,8 @@
     <string name="hist_rico">Histórico</string>
     <string name="pedido_n">Pedido nº: </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="faltam_para_a_meta_apenas">Faltam para a Meta, apenas:</string>
+    <string name="valor_total">Valor Total</string>
     <string name="pedido_n_old_orders"> | Pedido Nº:</string>
     <string name="miopia">Miopia</string>
     <string name="tipos_de_lentes">Tipos de Lentes</string>
@@ -33,4 +35,5 @@
     <string name="multifocal">Multifocal</string>
     <string name="valor_total">Valor Total</string>
     <string name="culos_de_sol">Óculos de Sol</string>
+
 </resources>

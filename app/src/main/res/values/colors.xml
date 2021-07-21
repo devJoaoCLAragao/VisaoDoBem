@@ -21,9 +21,14 @@
     <color name="dark_pink90_be2f83">#90be2f83</color>
     <color name="yellow_button_fragment">#F2E006</color>
     <color name="medium_gray_827c80">#827c80</color>
+    <color name="fundo">#fff6fc</color>
+    <color name="logotipo_principal_cor">#be2f83</color>
+    <color name="cinza_escuro">#545253</color>
+    <color name="caixa_falta_meta">#f2e006</color>
     <color name="green_2fbe71">#2fbe71</color>
     <color name="brown_8d5f67">#8d5f67</color>
     <color name="blue_2f46be">#2f46be</color>
+
 
 
 </resources>

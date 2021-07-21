@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import br.com.devjoaoclaragao.visaodobem.R
 import br.com.devjoaoclaragao.visaodobem.ui.fragment.ClientFragment
 import br.com.devjoaoclaragao.visaodobem.ui.fragment.ForWhoFragment
+import br.com.devjoaoclaragao.visaodobem.ui.fragment.SalesFragment
 
 class MainFragment : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,12 @@ class MainFragment : AppCompatActivity() {
         btnClients.setOnClickListener {
             setFragment(ClientFragment.newInstance())
         }
+
+        var btnSales = findViewById<ImageButton>(R.id.btnSales)
+        btnSales.setOnClickListener {
+            setFragment(SalesFragment.newInstance())
+        }
+
     }
 
     fun setFragment(fragment: Fragment) {
