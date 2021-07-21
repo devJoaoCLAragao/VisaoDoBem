@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    tools:context=".ui.fragment.SalesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/cabeçalho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp">
+
+            <TextView
+                android:id="@+id/text_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="29dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="Minhas Vendas"
+                android:textColor="@color/logotipo_principal_cor"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/img_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/text_sales"
+                android:background="@color/transparent"
+                android:src="@drawable/group_160" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listSales"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/cabeçalho"
+            android:layout_marginTop="30dp"
+            tools:listitem="@layout/item_list_sales"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
