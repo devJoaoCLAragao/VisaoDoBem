@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:background="@color/fundo">
 
     <RelativeLayout
@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="22dp"
         android:layout_marginRight="22dp"
-        android:layout_marginTop="20dp"
         android:background="@color/white">
 
         <ImageView
@@ -39,7 +38,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/calendar1"
             android:layout_marginLeft="24dp"
-            android:layout_marginBottom="11dp"
             android:fontFamily="@font/opensans_semi_bold"
             android:text="Fev"
             android:textColor="@color/cinza_escuro"
@@ -68,208 +66,6 @@
             android:textSize="18sp"
             android:textColor="@color/logotipo_principal_cor"
             android:text="R$ 200,00"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/sale2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/sale1"
-        android:background="@color/white">
-
-        <ImageView
-            android:id="@+id/calendar2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="7dp"
-            android:layout_marginTop="4dp"
-            android:src="@drawable/fi_calendar"
-            android:background="@color/transparent"/>
-
-        <TextView
-            android:id="@+id/daySale2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginLeft="27dp"
-            android:fontFamily="@font/opensans_bold"
-            android:textColor="@color/cinza_escuro"
-            android:textSize="18sp"
-            android:text="20"/>
-
-        <TextView
-            android:id="@+id/nameMonth2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/calendar2"
-            android:layout_marginLeft="24dp"
-            android:layout_marginBottom="11dp"
-            android:fontFamily="@font/opensans_semi_bold"
-            android:text="Fev"
-            android:textColor="@color/cinza_escuro"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/nameSeller2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="33dp"
-            android:layout_marginLeft="17dp"
-            android:layout_toRightOf="@id/calendar2"
-            android:fontFamily="@font/opensans_semi_bold"
-            android:textSize="16sp"
-            android:textColor="@color/cinza_escuro"
-            android:text="Lívia Santos" />
-
-        <TextView
-            android:id="@+id/valueSale2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="33dp"
-            android:layout_marginRight="32dp"
-            android:layout_alignParentRight="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="18sp"
-            android:textColor="@color/logotipo_principal_cor"
-            android:text="R$ 200,00"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/sale3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/sale2"
-        android:background="@color/white">
-
-        <ImageView
-            android:id="@+id/calendar3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="7dp"
-            android:layout_marginTop="4dp"
-            android:src="@drawable/fi_calendar"
-            android:background="@color/transparent"/>
-
-        <TextView
-            android:id="@+id/daySale3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:layout_marginLeft="27dp"
-            android:fontFamily="@font/opensans_bold"
-            android:textColor="@color/cinza_escuro"
-            android:textSize="18sp"
-            android:text="25"/>
-
-        <TextView
-            android:id="@+id/nameMonth3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/calendar3"
-            android:layout_marginLeft="24dp"
-            android:layout_marginBottom="11dp"
-            android:fontFamily="@font/opensans_semi_bold"
-            android:text="Fev"
-            android:textColor="@color/cinza_escuro"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/nameSeller3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="33dp"
-            android:layout_marginLeft="17dp"
-            android:layout_toRightOf="@id/calendar3"
-            android:fontFamily="@font/opensans_semi_bold"
-            android:textSize="16sp"
-            android:textColor="@color/cinza_escuro"
-            android:text="Lívia Santos" />
-
-        <TextView
-            android:id="@+id/valueSale3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="33dp"
-            android:layout_marginRight="32dp"
-            android:layout_alignParentRight="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="18sp"
-            android:textColor="@color/logotipo_principal_cor"
-            android:text="R$ 200,00"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/valorTotal"
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/sale3"
-        android:background="@color/logotipo_principal_cor" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="18dp"
-            android:layout_centerVertical="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            android:text="Valor Total"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="18sp"
-            android:textColor="@color/white"
-            android:text="R$ 600,00"/>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/faltaMeta"
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/valorTotal"
-        android:background="@color/caixa_falta_meta" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="18dp"
-            android:layout_centerVertical="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="14sp"
-            android:textColor="@color/cinza_escuro"
-            android:text="Faltam para a Meta, apenas:"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:fontFamily="@font/opensans_bold"
-            android:textSize="18sp"
-            android:textColor="@color/cinza_escuro"
-            android:text="R$ 600,00"/>
 
     </RelativeLayout>
 

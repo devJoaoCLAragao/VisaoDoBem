@@ -23,6 +23,13 @@ class SalesFragment : Fragment() {
 
         var sales = ArrayList<Sale>()
         sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+        sales.add(Sale("15", "Fev", "Lívia Santos", 200.00))
+
 
         var recycleViewSale = view?.findViewById<RecyclerView>(R.id.listSales)
         recycleViewSale?.adapter = SalesAdapter(requireContext(), sales)

@@ -37,19 +37,86 @@
                 android:layout_marginRight="9dp"
                 android:layout_toLeftOf="@id/text_sales"
                 android:background="@color/transparent"
-                android:src="@drawable/group_160" />
+                android:src="@drawable/group_160"/>
 
         </RelativeLayout>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/listSales"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="300dp"
             android:layout_below="@id/cabeçalho"
             android:layout_marginTop="30dp"
             tools:listitem="@layout/item_list_sales"/>
 
-    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/valorTotal"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="20dp"
+            android:translationZ="50dp"
+            android:layout_below="@id/listSales"
+            android:background="@color/logotipo_principal_cor" >
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="@string/valor_total"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:text="R$ 600,00"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/faltaMeta"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginLeft="22dp"
+            android:translationZ="50dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/valorTotal"
+            android:background="@color/caixa_falta_meta" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="14sp"
+                android:textColor="@color/cinza_escuro"
+                android:text="@string/faltam_para_a_meta_apenas"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/opensans_bold"
+                android:textSize="18sp"
+                android:textColor="@color/cinza_escuro"
+                android:text="R$ 200,00"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
 </FrameLayout>
