@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_mauve_fff6fc"
+    tools:context=".ui.fragment.OldOrdersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/opensans_semi_bold"
+            android:gravity="center"
+            android:text="Lívia Santos"
+            android:textColor="@color/dirty_purple_545253"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dtPedido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:gravity="center"
+                android:text="Data do Pedido: "
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/orderDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/dtPedido"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="26/05/2021"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/pedidoNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/orderDate"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:gravity="center"
+                android:text="@string/pedido_n_old_orders"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/orderNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/pedidoNo"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:text="28103"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/old_order_photo" />
+
+        <!--        LL pai-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="52dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+
+            <!--            LL da Esquerda-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!--                LL de cima-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_semi_bold"
+                        android:gravity="center"
+                        android:text="Diagnóstico"
+                        android:textColor="@color/dark_pink_be2f83"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/dark_pink_be2f83"
+                            android:checked="true"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/miopia"
+                            android:textColor="@color/dirty_purple_545253" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/astigmatismo"
+                            android:textColor="@color/dirty_purple_545253" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/vis_o_siples"
+                            android:textColor="@color/dirty_purple_545253" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <!--                LL de baixo-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="11dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_semi_bold"
+                        android:gravity="center"
+                        android:text="@string/tipos_de_lentes"
+                        android:textColor="@color/dark_pink_be2f83"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/dark_pink_be2f83"
+                            android:checked="true"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/simples"
+                            android:textColor="@color/dirty_purple_545253" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/surfa_ado"
+                            android:textColor="@color/dirty_purple_545253" />
+
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="false"
+                            android:fontFamily="@font/opensans_regular"
+                            android:text="@string/multifocal"
+                            android:textColor="@color/dirty_purple_545253" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--            LL da Direita-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:gravity="center"
+                    android:text="@string/culos_de_sol"
+                    android:textColor="@color/dark_pink_be2f83"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/black"
+                        android:checked="true"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/dirty_purple_545253" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/green_2fbe71"
+                        android:checked="true"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/dirty_purple_545253" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/brown_8d5f67"
+                        android:checked="true"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/dirty_purple_545253" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/blue_2f46be"
+                        android:checked="true"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/dirty_purple_545253" />
+
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="17dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/valorTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:paddingLeft="20dp"
+                android:text="@string/valor_total"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/totalValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/opensans_semi_bold"
+                android:paddingLeft="20dp"
+                android:text="R$ 370,00"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/medium_gray_827c80"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
