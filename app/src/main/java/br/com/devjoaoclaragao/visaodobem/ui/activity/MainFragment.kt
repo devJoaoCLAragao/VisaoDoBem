@@ -26,6 +26,11 @@ class MainFragment : AppCompatActivity() {
             setFragment(SalesFragment.newInstance())
         }
 
+        var btnPlus = findViewById<ImageButton>(R.id.btnPlus)
+        btnPlus.setOnClickListener {
+            setFragment(ForWhoFragment.newInstance())
+        }
+
     }
 
     fun setFragment(fragment: Fragment) {
