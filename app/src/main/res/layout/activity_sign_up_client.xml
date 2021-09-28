@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.SignUpClient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="@string/preencha_os"
+        android:textColor="@color/dirty_purple_545253"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:text="@string/dados_do_cliente"
+        android:textColor="@color/dark_pink_be2f83"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/clientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/nome"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <EditText
+        android:id="@+id/clientCPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/cpf"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <EditText
+        android:id="@+id/clientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/whatsapp_telefone"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <EditText
+        android:id="@+id/clientZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/cep"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <EditText
+        android:id="@+id/clientStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/rua"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/clientNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/dark_pink_be2f83"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="@string/n_mero"
+            android:textColor="@color/dirty_purple_545253"
+            android:textColorHint="@color/dirty_purple_545253" />
+
+        <EditText
+            android:id="@+id/clientComplement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/dark_pink_be2f83"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="@string/complemento"
+            android:textColor="@color/dirty_purple_545253"
+            android:textColorHint="@color/dirty_purple_545253" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/clientDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/dark_pink_be2f83"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="Bairro"
+            android:textColor="@color/dirty_purple_545253"
+            android:textColorHint="@color/dirty_purple_545253" />
+
+        <EditText
+            android:id="@+id/clientCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/dark_pink_be2f83"
+            android:fontFamily="@font/opensans_regular"
+            android:hint="Cidade"
+            android:textColor="@color/dirty_purple_545253"
+            android:textColorHint="@color/dirty_purple_545253" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/clientRecomendedBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/indicado_por"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <EditText
+        android:id="@+id/clientBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/dark_pink_be2f83"
+        android:fontFamily="@font/opensans_regular"
+        android:hint="@string/data_de_nascimento"
+        android:textColor="@color/dirty_purple_545253"
+        android:textColorHint="@color/dirty_purple_545253" />
+
+    <LinearLayout
+        android:id="@+id/btnSaveClient"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:background="@color/logotipo_principal_cor"
+            android:fontFamily="@font/opensans_bold"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:text="Salvar"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_content_save"/>
+
+    </LinearLayout>
+
+</LinearLayout>

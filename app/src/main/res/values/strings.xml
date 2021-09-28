@@ -34,5 +34,16 @@
     <string name="surfa_ado">Surfaçado</string>
     <string name="multifocal">Multifocal</string>
     <string name="culos_de_sol">Óculos de Sol</string>
+    <string name="preencha_os">Preencha os</string>
+    <string name="nome">Nome</string>
+    <string name="cpf">CPF</string>
+    <string name="whatsapp_telefone">Whatsapp / Telefone</string>
+    <string name="rua">Rua</string>
+    <string name="cep">CEP</string>
+    <string name="n_mero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="indicado_por">Indicado Por</string>
+    <string name="data_de_nascimento">Data de Nascimento</string>
+    <string name="dados_do_cliente">dados do Cliente</string>
 
 </resources>
