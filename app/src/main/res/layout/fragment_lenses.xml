@@ -5,10 +5,116 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragment.LensesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginHorizontal="30dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="50dp"
+              android:fontFamily="@font/opensans_bold"
+              android:text="@string/tipos_de_lentes"
+              android:textColor="@color/dark_pink_be2f83"
+              android:textSize="22sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="24dp"
+              android:fontFamily="@font/opensans_bold"
+              android:text="@string/Lenses1"
+              android:textColor="@color/dark_pink_be2f83"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses2"
+              android:textColor="@color/dirty_purple_545253"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="24dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses3"
+              android:textColor="@color/dark_pink_be2f83"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses4"
+              android:textColor="@color/dirty_purple_545253"
+              android:textSize="18sp" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="24dp"
+              android:src="@drawable/quimica_pura_como_lentes_transitions_se_transformam_na_luz_do_sol_5_e_1670_b_151_cf_6_1"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="24dp"
+              android:fontFamily="@font/opensans_bold"
+              android:text="@string/Lenses5"
+              android:textColor="@color/dark_pink_be2f83"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses6"
+              android:textColor="@color/dirty_purple_545253"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="24dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses3"
+              android:textColor="@color/dark_pink_be2f83"
+              android:textSize="18sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:fontFamily="@font/opensans_semi_bold"
+              android:text="@string/Lenses7"
+              android:textColor="@color/dirty_purple_545253"
+              android:textSize="18sp" />
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="24dp"
+              android:layout_marginBottom="50dp"
+              android:src="@drawable/group_267"/>
+
+
+
+      </LinearLayout>
+
+  </ScrollView>
 
 </FrameLayout>

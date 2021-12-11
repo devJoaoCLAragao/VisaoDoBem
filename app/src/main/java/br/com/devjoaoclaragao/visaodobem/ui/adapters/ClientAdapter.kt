@@ -48,7 +48,7 @@ class ClientAdapter(var context: Context, var list: List<Client>) :
                 //Toast.makeText(context, "clicou item $context", Toast.LENGTH_SHORT).show()
             }
 
-            nameClient.text = client.name
+            nameClient.text = client.clientName
             lastOrder.text = client.lastOrder
 
         }

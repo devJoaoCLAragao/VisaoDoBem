@@ -45,5 +45,37 @@
     <string name="indicado_por">Indicado Por</string>
     <string name="data_de_nascimento">Data de Nascimento</string>
     <string name="dados_do_cliente">dados do Cliente</string>
+    <string name="vamos_definir">Vamos definir</string>
+    <string name="sua_meta">sua meta?</string>
+    <string name="o_per_odo">o período</string>
+    <string name="escolha">Escolha</string>
+    <string name="quinzenal">Quinzenal</string>
+    <string name="mensal">Mensal</string>
+    <string name="trimestral">Trimestral</string>
+    <string name="quanto_voc">Quanto você</string>
+    <string name="deseja_ganhar_neste_per_odo">deseja Ganhar neste período?</string>
+    <string name="em">EM</string>
+    <string name="breve">BREVE</string>
+
+
+    <!--    Information Fragment-->
+    <string name="outras_informa_es">Outras Informações</string>
+
+    <!--    Measurements Fragment-->
+    <string name="measurement1">1.DNP - Distância Naso-Pupilar.</string>
+    <string name="measurements2">É a distância entre a base nasal e o centro da pupila. Esta medida é essencial para centralizar o Centro Óptico da lente sobre a pupila do cliente. É importante também na surfassagem para calcular o diâmetro e espessura final da lente. Deve ser medida em ambos os olhos separadamente.</string>
+    <string name="measurements3">2. Altura de Multifocal</string>
+    <string name="tomada_de_medidas">Tomada de Medidas</string>
+    <string name="measurements4">ALT - Altura Pupilar é a altura do centro da pupila até a base inferior da lente. É dela que depende a altura de montagem de um multifocal e a distribuição de seus campos de visão.</string>
+
+    <!--    Lenses Fragment-->
+    <string name="Lenses1">Lentes Fotossensível</string>
+    <string name="Lenses2">Clareiam e escurecem de acordo com o ambiente e intensidade da luz solar. Em ambiente fechado parecem óculos de grau normais (lentes brancas), quando estão sendo usados em ambiente externo, parecem óculos de sol (lentes escuras).</string>
+    <string name="Lenses3">Benefícios:</string>
+    <string name="Lenses4"> - Repelem a radiação nociva dos raios solares, ajudando na manutenção da saúde da visão. <br />  - Oferecem mais conforto e segurança para a visão, mantendo os olhos protegidos ao máximo dos impactos dos raios UV.</string>
+    <string name="Lenses5">Anti-Reflexo (AR)</string>
+    <string name="Lenses6">Evita a fadiga ocular, aumentando seu conforto visual, é ideal para quem usa computador e óculos (tanto adultos quanto crianças) e muitas vezes sentem dores de cabeça, ardência, olhos vermelhos e etc.</string>
+    <string name="Lenses7">- Eliminação quase total dos reflexos das superfícies da lente: os olhos são menos exigidos reduzindo assim o cansaço visual.<br /> - Melhor visualização: principalmente à noite e ao dirigir.<br /> - Grande durabilidade: ao aplicar o Anti-Reflexo nas suas lentes, elas recebem um tratamento endurecedor aumentando a sua resistência à riscos</string>
+
 
 </resources>

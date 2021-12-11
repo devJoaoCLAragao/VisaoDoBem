@@ -5,10 +5,186 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragment.InformationFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@color/pale_mauve_fff6fc"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/group_264" />
+
+        <!--        Primeiro-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="42dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnAmetropia"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/group_256"
+                    android:translationZ="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnLenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/group_265"
+                    android:translationZ="10px" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--        Segundo-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="42dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnMeasurement"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/group_258"
+                    android:translationZ="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnAccreditedClinics"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/group_257"
+                    android:translationZ="10px" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--        Teceiro-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="42dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnEyeglassFrames"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/group_255"
+                    android:translationZ="10px" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnOtherInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/outras_informa_es"
+                    android:textColor="@color/dirty_purple_545253"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:background="@drawable/background_shadow_white_client" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
 
 </FrameLayout>
