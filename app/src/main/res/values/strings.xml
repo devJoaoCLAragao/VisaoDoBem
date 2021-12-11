@@ -77,5 +77,12 @@
     <string name="Lenses6">Evita a fadiga ocular, aumentando seu conforto visual, é ideal para quem usa computador e óculos (tanto adultos quanto crianças) e muitas vezes sentem dores de cabeça, ardência, olhos vermelhos e etc.</string>
     <string name="Lenses7">- Eliminação quase total dos reflexos das superfícies da lente: os olhos são menos exigidos reduzindo assim o cansaço visual.<br /> - Melhor visualização: principalmente à noite e ao dirigir.<br /> - Grande durabilidade: ao aplicar o Anti-Reflexo nas suas lentes, elas recebem um tratamento endurecedor aumentando a sua resistência à riscos</string>
 
+<!--    Ametropia Fragment-->
+    <string name="clique">Clique</string>
+    <string name="as_informa_es">as informações</string>
+    <string name="astigmatismo">Astigmatismo</string>
+    <string name="hipermetropia">Hipermetropia</string>
+    <string name="presbiopia">Presbiopia</string>
+
 
 </resources>

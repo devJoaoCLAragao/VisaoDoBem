@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.AmetropiaFragment"
+    android:background="@color/pale_mauve_fff6fc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/clique"
+                android:textColor="@color/dark_pink_be2f83"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:text="para ver"
+                android:textColor="@color/dirty_purple_545253"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/as_informa_es"
+            android:textColor="@color/dirty_purple_545253"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="42dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnMyopia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:text="@string/miopia"
+                    android:textColor="@color/dirty_purple_545253"
+                    android:textSize="16sp"
+                    android:translationZ="50dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/mi_prancheta_2_2_x_2"
+                    android:translationZ="50dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnAstigmatism"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:text="@string/astigmatismo"
+                    android:textColor="@color/dirty_purple_545253"
+                    android:textSize="16sp"
+                    android:translationZ="50dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/ast_prancheta_2_2_x_2"
+                    android:translationZ="50dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--        Segundo-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="42dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnHyperopia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_shadow_white_client" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:text="@string/hipermetropia"
+                    android:textColor="@color/dirty_purple_545253"
+                    android:textSize="16sp"
+                    android:translationZ="50dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/hip_prancheta_2_2_x_1"
+                    android:translationZ="50dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/btnPresbyopia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/presbiopia"
+                    android:fontFamily="@font/opensans_semi_bold"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/dirty_purple_545253"
+                    android:background="@drawable/background_shadow_white_client" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
