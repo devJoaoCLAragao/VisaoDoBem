@@ -54,7 +54,7 @@
     <string name="quanto_voc">Quanto você</string>
     <string name="deseja_ganhar_neste_per_odo">deseja Ganhar neste período?</string>
 
-<!--    Accredited Clinics Fragment-->
+    <!--    Accredited Clinics Fragment-->
     <string name="em">EM</string>
     <string name="breve">BREVE</string>
 
@@ -89,11 +89,17 @@
     <string name="myopia1">Dificuldade para enxergar objetos distantes e quanto mais longe o item estiver, mais difícil é o foco. <br /> Os olhos são mais longos que o normal, assim a imagem se forma antes da retina, gerando uma visão turva e desfocada para objetos distantes.</string>
     <string name="myopia2">Correção:</string>
     <string name="myopia3">Através de lentes negativas que são mais finas no centro e espessas nas bordas. <br /> <br /> Na receita de um cliente míope, seu valor dióptrico estará com um sinal negativo a frente.</string>
+
+    <!--    Astigmatism Fragment-->
     <string name="astigmatism1">Dificuldade em enxergar em todas as distâncias se associa ao cansaço visual e à quantidade irregular de piscadas, além da dificuldade de leitura.</string>
     <string name="astigmatism2">A córnea possui um formato irregular, apresentando uma curvatura diferente, assim, os raios de luz não conseguem convergir e, portanto, não formam imagens focalizadas.</string>
     <string name="astigmatism3">Com uma lente tórica ou cilíndrica, essas curvas compensam a irregularidade da córnea. A espessura da lente não é a mesma em toda a sua superfície.</string>
 
-    <!--    Astigmatism Fragment-->
+    <!--    Hyperopia Fragment-->
+    <string name="hyperopia1">Visão desfocada (embaçada) para objetos vistos de perto, enquanto que para objetos mais distantes os mesmos possuem visão nítida.</string>
+    <string name="hyperopia2">Focalização da imagem depois da retina, isto é, os raios luminosos que incidem no olho refletidos de objetos próximos tendem a formar sua imagem depois da retina.</string>
+    <string name="hyperopia3">O olho hipermétrope possui um comprimento axial menor e com isso a imagem chega a retina antes do foco se formar (foco depois da retina).</string>
+    <string name="hyperopia4">É feita através de lentes convergentes (convexas), lentes positivas.</string>
 
 
 </resources>
