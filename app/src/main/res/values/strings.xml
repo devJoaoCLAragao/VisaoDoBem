@@ -101,5 +101,14 @@
     <string name="hyperopia3">O olho hipermétrope possui um comprimento axial menor e com isso a imagem chega a retina antes do foco se formar (foco depois da retina).</string>
     <string name="hyperopia4">É feita através de lentes convergentes (convexas), lentes positivas.</string>
 
+    <!--    Presbyopia Fragment-->
+    <string name="presbyopia1">Também chamada de vista cansada, trata-se da piora de visão normal que ocorre com o avançar da idade, quando os olhos lentamente perdem a capacidade de focalizar objetos muito próximos. Em geral começa aos 40 anos de idade e acaba acometendo todas as pessoas até os 50 anos em algum grau.</string>
+    <string name="presbyopia2">Com o tempo, os músculos passam a não funcionar tão bem e o cristalino não se adaptada mais da melhor forma à focalização da imagem e a visão de perto acaba sendo prejudicada.</string>
+    <string name="presbyopia3">Lentes corretoras multifocais, bifocais ou pelo uso de óculos para leitura. Na receita de um cliente presbita, terá valor dióptrico para perto.</string>
+    <string name="presbyopia4">Presbiopia Orientação</string>
+    <string name="presbyopia5">Pessoas com presbiopia que escolhe óculos visão simples, um para perto e um para longe, sempre orientá-los que:</string>
+    <string name="presbyopia6">1. Os óculos de longe só terá nitidez na distância de longe. <br/> 2. Os óculos de perto só terá nitidez na distância de perto.</string>
+
+
 
 </resources>
