@@ -28,7 +28,6 @@
     <string name="pedido_n_old_orders"> | Pedido Nº:</string>
     <string name="miopia">Miopia</string>
     <string name="tipos_de_lentes">Tipos de Lentes</string>
-    <string name="astigmatismo">Astigmatismo</string>
     <string name="vis_o_siples">Visão Siples</string>
     <string name="simples">Simples</string>
     <string name="surfa_ado">Surfaçado</string>
@@ -77,12 +76,17 @@
     <string name="Lenses6">Evita a fadiga ocular, aumentando seu conforto visual, é ideal para quem usa computador e óculos (tanto adultos quanto crianças) e muitas vezes sentem dores de cabeça, ardência, olhos vermelhos e etc.</string>
     <string name="Lenses7">- Eliminação quase total dos reflexos das superfícies da lente: os olhos são menos exigidos reduzindo assim o cansaço visual.<br /> - Melhor visualização: principalmente à noite e ao dirigir.<br /> - Grande durabilidade: ao aplicar o Anti-Reflexo nas suas lentes, elas recebem um tratamento endurecedor aumentando a sua resistência à riscos</string>
 
-<!--    Ametropia Fragment-->
+    <!--    Ametropia Fragment-->
     <string name="clique">Clique</string>
     <string name="as_informa_es">as informações</string>
     <string name="astigmatismo">Astigmatismo</string>
     <string name="hipermetropia">Hipermetropia</string>
     <string name="presbiopia">Presbiopia</string>
+
+<!--    Myopia Fragment-->
+    <string name="myopia1">Dificuldade para enxergar objetos distantes e quanto mais longe o item estiver, mais difícil é o foco. <br/> Os olhos são mais longos que o normal, assim a imagem se forma antes da retina, gerando uma visão turva e desfocada para objetos distantes.</string>
+    <string name="myopia2">Correção</string>
+    <string name="myopia3">Através de lentes negativas que são mais finas no centro e espessas nas bordas. <br/> <br/> Na receita de um cliente míope, seu valor dióptrico estará com um sinal negativo a frente.</string>
 
 
 </resources>
